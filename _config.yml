@@ -1,34 +1,42 @@
-# Site settings
+permalink   : /:categories/:year/:title/
+markdown    : kramdown
+highlighter : pygments
+
+paginate: 2 #6
+comments: true
+paginate_path: "/page/:num"
+
+source: source
+destination: _site
+sass:
+  sass_dir: _scss
+  style: compressed
+
+cover: /assets/images/default-cover.png
+
+# site title, description, meta_description, meta_keywords
+# Details for the RSS feed generator
+name: winry
 title: winry's Brain
-email: rai007@naver.com
-description: winry's Ideas & Blogs
-# > # this means to ignore newlines until "baseurl:"
-#   Write an awesome description for your new site here. You can edit this
-#   line in _config.yml. It will appear in your document head meta (for
-#   Google search results) and in your feed.xml site description.
+description: "A free Jekyll theme for download"
+keywords: "Jekyll, theme, mug, free, download, SEO, blog, web"
+url: http://winrywinry.github.io
+baseurl: "/"
+domain_name: winrywinry.github.io
+# google_analytics: UA-52446115-1
+repo: http://github.com/winrywinry/winrywinry.github.io/master/
+disqus_shortname: "winrywinry"
 
-# baseurl: "" # the subpath of your site, e.g. /blog/
-# url: "http://yourdomain.com" # the base hostname & protocol for your site
-# twitter_username: jekyllrb
-github_username: winrywinry
-permalink: /:year/:month/:day/:title/
-# this is the url root of the view source link on the footer page.
-viewsourceroot: https://github.com/winrywinry/winrywinry.github.io/blob/master/
-# this is the url root of the create page link on the footer page.
-newsourceroot: https://github.com/winrywinry/winrywinry.github.io/new/master
-#########################################
-# for duoshuo.com commenting system, uncomment following line if you do not want to include duoshuo.com. 
-#duoshuo_shortname: lixizhi
-#duoshuo_url: "http://lixizhi.github.io"
-# disqus.com commenting system. please note that it is exclusive with duoshuo.com
-#disqus_shortname: lixizhi
-#disqus_url: "http://lixizhi.github.io"
-#########################################
+author:
+  name      : Fernando Moreira
+  image     : /assets/images/author.jpg
+  email     : nandomoreira.me@gmail.com
+  url       : http://nandomoreira.me
+  facebook  : http://facebook.com/fernando.dev
+  twitter   : http://twitter.com/nandomoreirame
+  instagram : http://instagram.com/nandomoreira.me
+  github    : http://github.com/nandomoreirame
+  linkedin  : http://linkedin.com/in/nandomoreirame
+  bio       : "Desenvolvedor Front-end/Wordpress entusiasta de performance, design responsivo e usabilidade, sempre em busca do melhor projeto e de um bom café."
 
-# Build settings
-markdown: kramdown
-
-# highlight
-highlighter: pygments
-# highlighter: rouge
-# highlighter: false
+exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md"]
