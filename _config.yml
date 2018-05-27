@@ -21,7 +21,7 @@ title: winry's Brain
 description: "A free Jekyll theme for download"
 keywords: "Jekyll, theme, mug, free, download, SEO, blog, web"
 url: http://winrywinry.github.io
-baseurl: "/"
+#baseurl: ""
 domain_name: winrywinry.github.io
 # google_analytics: UA-52446115-1
 repo: http://github.com/winrywinry/winrywinry.github.io/master/
