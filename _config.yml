@@ -1,33 +1,34 @@
-markdown: kramdown
-highlighter: pygments
-permalink: /posts/:title.html
-excerpt_separator: "<!-- more -->"
-
-github: winrywinry
-author: winry
+# Site settings
+title: winry's Brain
 email: rai007@naver.com
-name: "winry's Brain"
-#url: http://www.panxw.com
-#domain: www.panxw.com
-#all_categories: [
-#["java", "Android开发","/posts/android.html"], 
-#["program", "软件编程","/posts/program.html"],
-#["web", "Web建站","/posts/web.html"], 
-#["linux", "Linux相关","/posts/linux.html"],
-#["read", "读书笔记","/posts/read.html"], 
-#["other", "杂记","/posts/other.html"],
-#["about", "关于","/about.html"]
-all_categories: [
-	["java", "JAVA", "/posts/java.html"]
-]
+description: winry's Ideas & Blogs
+# > # this means to ignore newlines until "baseurl:"
+#   Write an awesome description for your new site here. You can edit this
+#   line in _config.yml. It will appear in your document head meta (for
+#   Google search results) and in your feed.xml site description.
 
-paginate: 8
-paginate_path: "posts/page:num"
-timezone: America/Los_Angeles
+# baseurl: "" # the subpath of your site, e.g. /blog/
+# url: "http://yourdomain.com" # the base hostname & protocol for your site
+# twitter_username: jekyllrb
+github_username: winrywinry
+permalink: /:year/:month/:day/:title/
+# this is the url root of the view source link on the footer page.
+viewsourceroot: https://github.com/winrywinry/winrywinry.github.io/blob/master/
+# this is the url root of the create page link on the footer page.
+newsourceroot: https://github.com/winrywinry/winrywinry.github.io/new/master
+#########################################
+# for duoshuo.com commenting system, uncomment following line if you do not want to include duoshuo.com. 
+#duoshuo_shortname: lixizhi
+#duoshuo_url: "http://lixizhi.github.io"
+# disqus.com commenting system. please note that it is exclusive with duoshuo.com
+#disqus_shortname: lixizhi
+#disqus_url: "http://lixizhi.github.io"
+#########################################
 
-collections:
-  docs:
-    output: true
+# Build settings
+markdown: kramdown
 
-gems:
- - jekyll-paginate
+# highlight
+highlighter: pygments
+# highlighter: rouge
+# highlighter: false
