@@ -21,7 +21,7 @@ title: winry's Brain
 description: "개발자 나부랭이"
 keywords: "developer, java, linux, web"
 url: http://winrywinry.github.io
-#baseurl: ""
+baseurl: "/mug"
 domain_name: winrywinry.github.io
 # google_analytics: UA-52446115-1
 repo: http://github.com/winrywinry/winrywinry.github.io/master/
