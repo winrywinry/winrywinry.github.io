@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>winry&#39;s Brain</title>
-    <description>A free Jekyll theme for download</description>
+    <description>개발자 나부랭이</description>
     <link>http://winrywinry.github.io/</link>
     <atom:link href="http://winrywinry.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 27 May 2018 23:16:00 +0900</pubDate>
-    <lastBuildDate>Sun, 27 May 2018 23:16:00 +0900</lastBuildDate>
+    <pubDate>Mon, 28 May 2018 18:43:23 +0900</pubDate>
+    <lastBuildDate>Mon, 28 May 2018 18:43:23 +0900</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
