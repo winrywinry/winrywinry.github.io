@@ -28,6 +28,12 @@ url: "https://winrywinry.github.io"
 github:
   username: winrywinry # change to your GitHub username
 
+# 작성자 정보 설정
+author:
+  name: suyeon      # 표시될 이름
+  bio: 20년 외길 인생     # (선택사항) 작성자 소개
+  url: https://github.com/winrywinry  # (선택사항) 작성자 프로필 링크
+
 twitter:
   username: twitter_username # change to your Twitter username
 
