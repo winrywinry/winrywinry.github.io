@@ -23,14 +23,14 @@ description: >- # used by seo meta and the atom feed
 
 # 작성자 정보 설정
 author:
-  name: suyeon      # 표시될 이름
+  name: suyeon.y      # 표시될 이름
   bio: 20년 외길 인생     # (선택사항) 작성자 소개
   url: https://github.com/winrywinry  # (선택사항) 작성자 프로필 링크
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: suyeon
+  name: suyeon.y
   email: rai007@naver.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
