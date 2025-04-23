@@ -129,7 +129,6 @@ comments:
     repo_id: R_kgDOOGkGAQ
     category: Announcements
     category_id: DIC_kwDOOGkGAc4CpW-y
-    theme: light_protanopia
     mapping: # optional, default to 'pathname'
     strict: # optional, default to '0'
     input_position: # optional, default to 'bottom'
